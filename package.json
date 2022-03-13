@@ -1,0 +1,19 @@
+{
+  "name": "portfolio-aguemes",
+  "version": "1.0.0",
+  "description": "My portfolio website to showcase what I have worked on",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngelicaGE/portfolio-aguemes.git"
+  },
+  "author": "Angelica Guemes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AngelicaGE/portfolio-aguemes/issues"
+  },
+  "homepage": "https://github.com/AngelicaGE/portfolio-aguemes#readme"
+}
