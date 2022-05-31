@@ -1,0 +1,77 @@
+@import '_vars';
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&family=Roboto:wght@300&family=Train+One&display=swap');
+.Main{
+    color: $white;
+    margin: auto;
+    display: flex;
+}
+.Main-container{
+    max-width: $max-width;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    height: 85vh;
+
+}
+.Main .title{
+    font-family: 'Train One', cursive;
+}
+.Main .title{
+    width: min-content;
+}
+.Main .subtitle-social {
+    justify-content: flex-end;
+}
+.Main .git{
+    filter: invert(100%); 
+}
+
+
+@media(min-width:300px) {
+    .Main .container-text img{
+        width: 3rem;
+    }
+
+ }
+
+ @media(min-width:768px) {
+    .Main-container{
+        flex-direction: row;
+        justify-content: space-around;
+        //margin-top: -80px;
+    }
+    .Main .container-img{
+        width: 40%;
+    }
+    .Main .container-text{
+        max-width: 60%;
+        padding: 0 20px;
+    }
+    .Main .container-img img{
+        width: 100%;
+        max-width: 36.5rem;
+    }
+    .Main .title{
+        font-size: 5rem;
+        text-align: end;
+        line-height: 65px;
+    }
+    .Main .subtitle{
+        font-size: 2rem;
+    }
+    .Main .git{
+        margin-right: 10px;
+        margin-left: 20px;
+    }   
+ }
+ @media(min-width:1024px) {
+    .Main .title{
+        font-size: 6rem;
+    }
+    .Main .title p{
+        display: inline-block;
+        width: min-content;
+    }
+
+
+ }
