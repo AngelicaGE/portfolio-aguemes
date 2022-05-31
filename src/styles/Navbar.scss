@@ -1,0 +1,53 @@
+@import '_vars';
+.NavbarTop{
+    background-color: #330034;
+}
+.NavbarTop .container{
+    max-width: $max-width;
+    margin: auto;
+    padding: 1rem 0;
+}
+.NavbarTop .name{
+    width: 100%;
+    text-align: center;
+    color: $white;
+}
+.NavbarTop .resume{
+    width: 20rem;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 0.5rem 0;
+    border-radius: 25px;
+}
+.NavbarTop .resume a{
+    color: white;
+}
+
+.NavbarBottom{
+    background-image: radial-gradient(circle at 50% -20.71%, #2a5b87 0, #af833a 25%, #990035 50%, #314876 75%, #330034 100%);
+    border-top: 2px solid #330034;
+    border-bottom: 2px solid #330034;}
+.NavbarBottom .container{
+    max-width: $max-width;
+    margin: auto;
+    padding: 1rem 0;
+    gap:1rem;
+    color: $white;
+    font-weight: bold;
+}
+
+@media(min-width:300px) {
+    .name ul a{
+        margin-left: 20rem;
+        font-weight: 900;
+    }
+ }
+
+ @media(min-width:768px) {
+
+ }
+ @media(min-width:1024px) {
+
+ }

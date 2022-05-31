@@ -1,7 +1,39 @@
-$base-color: rgb(194, 131, 131);
-$color: blue;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Neonderthaw&family=Roboto:wght@300&family=Train+One&display=swap');
+@import '_vars';
 
-body{
-    background-color: $base-color;
-    color: $color;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;    
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+}
+#app, #app-container, body, html{
+    height: 100%;
+}
+#app{
+    background-color: $spanish-orange;
+}
+.display-none{
+    display: none !important;
+}
+.display{
+    display: inline-block;
+}
+.hide{
+    visibility: hidden;
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+.center-center{
+    justify-content: center;
+    align-items: center;
 }
